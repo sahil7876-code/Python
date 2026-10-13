@@ -8,4 +8,4 @@ else:
     for i in num:
         total += int(i)
 
-print("The sum of the digits in the number is:", total)
+print("Sum: ", total)

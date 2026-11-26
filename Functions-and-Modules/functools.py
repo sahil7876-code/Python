@@ -1,7 +1,32 @@
+
+# a=lambda d,b,c:d*b*c
+# print(a(10,20,30))
+
+# li=[10,20,30]
+# print(list(map(lambda n:n*2,li)))
+
+
+# def show(x):
+#     return x%2==0
+
+# li=[10,20,30]
+# print(list(map(show,li)))
+
+
+# li=[10,21,30]
+# print(list(filter(lambda n:n%2==0,li)))
+
+
+# def show(x):
+#     return x%2==0
+
+# li=[10,21,30]
+# print(list(filter(show,li)))
+
 from functools import reduce
-l=[2,3,4,5,6]
+li=[10,20,30]
+# def show(a,b):
+#     return a+b
+# print(reduce(show,li,100)
 
-def add(a,b):
-    return a+b
-
-print(reduce(add, l, 20))
+print(reduce(lambda a,b:a+b,li,100))

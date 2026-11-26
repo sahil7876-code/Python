@@ -11,7 +11,7 @@ def out(func):
         result = func(*args)
         print(result)
         print("Print")
-        is_running = False  # Reset directly
+        is_running = False
 
     return wrapper
 
